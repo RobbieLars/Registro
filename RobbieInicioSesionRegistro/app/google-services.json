@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "338668339071",
+    "project_id": "fir-prueva-e6389",
+    "storage_bucket": "fir-prueva-e6389.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338668339071:android:dcca7d3beee980edc3644a",
+        "android_client_info": {
+          "package_name": "robbie.iniciosesionregistro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv0FJO-M0Y3iHE2DRUnvHMz2b2FfWjQkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
