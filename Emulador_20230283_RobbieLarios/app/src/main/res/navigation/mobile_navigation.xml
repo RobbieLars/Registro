@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/Fragmen_Inicio">
+
+    <fragment
+        android:id="@+id/Fragmen_Inicio"
+        android:name="My.RobbieLarios.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/Fragmen_Inicio"
+        android:name="My.RobbieLarios.ui.dashboard.DashboardFragment"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/Fragmen_Contactanos"
+        android:name="My.RobbieLarios.ui.notifications.NotificationsFragment"
+        android:label="Contactanos"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/fragment_Perfil"
+        android:name="My.RobbieLarios.Fragment_Perfil"
+        android:label="Perfil"
+        tools:layout="@layout/fragment__perfil" />
+    <fragment
+        android:id="@+id/fragmen_Informacion"
+        android:name="My.RobbieLarios.Fragmen_Informacion"
+        android:label="Información"
+        tools:layout="@layout/fragment_fragmen__informacion" />
+</navigation>
